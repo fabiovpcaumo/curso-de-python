@@ -21,3 +21,10 @@ Monants
 Lambda calculus
 	- Alonzo Church
 		- Orientador de Alan Turing
+
+HIGH ORDER FUNCTIONS
+
+Composição de funções
+
+Procurar:
+	GoF
