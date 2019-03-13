@@ -1,0 +1,23 @@
+Imperativo: Diz proceduralmente como resolver o problema C++, Java, C#, Python, JavaScript, Assembly
+
+Declarativo: Cria estruturas que combinadas solucionam os problemas
+
+Lógico: Expressa lógica (filosófica) como eventos devem se manisfestar, partindo de afirmações (Prolog, Ocaml)
+
+Abstração de dados
+Abstração de processos
+
+2 + 2 = 4
+d p d = d
+
+Um dado abstrato é chamado de tipo
+Tipo
+String
+int, float, complex
+Listas, tuplas, conjuntos
+
+Monants
+
+Lambda calculus
+	- Alonzo Church
+		- Orientador de Alan Turing
