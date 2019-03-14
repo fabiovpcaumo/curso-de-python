@@ -1,11 +1,11 @@
-lista = ['keep', 'remove', 'keep', 'remove', 'keep', 'remove']
+lista = ['keep', 'remove', 'keep', 'remove', 'keep', 'remove', 'remove', 'remove', 'keep', 'remove', 'keep', 'keep']
+
 
 def keep(instrucao):
     return instrucao != 'remove'
 
-for i in lista:
-    print(keep(i))
 
-lista_n = filter(keep, lista)
-for i in lista_n:
-    print(i)
+print(list(filter(keep, lista)))
+
+# newList = list(filter(keep, lista))
+# print(newList)

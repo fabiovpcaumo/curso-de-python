@@ -1,0 +1,1 @@
+lista = ['keep', 'remove', 'keep', 'remove', 'keep', 'remove', 'remove', 'remove', 'keep', 'remove', 'keep', 'keep']
