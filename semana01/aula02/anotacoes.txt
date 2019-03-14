@@ -2,21 +2,21 @@ Imperativo: Diz proceduralmente como resolver o problema C++, Java, C#, Python, 
 
 Declarativo: Cria estruturas que combinadas solucionam os problemas
 
-Lógico: Expressa lógica (filosófica) como eventos devem se manisfestar, partindo de afirmações (Prolog, Ocaml)
+L?gico: Expressa l?gica (filos?fica) como eventos devem se manisfestar, partindo de afirma??es (Prolog, Ocaml)
 
-Abstração de dados
-Abstração de processos
+Abstra??o de dados
+Abstra??o de processos
 
 2 + 2 = 4
 d p d = d
 
-Um dado abstrato é chamado de tipo
+Um dado abstrato ? chamado de tipo
 Tipo
 String
 int, float, complex
 Listas, tuplas, conjuntos
 
-Monants
+Monads
 
 Lambda calculus
 	- Alonzo Church
@@ -24,7 +24,7 @@ Lambda calculus
 
 HIGH ORDER FUNCTIONS
 
-Composição de funções
+Composi??o de fun??es
 
 Procurar:
 	GoF
