@@ -1,5 +1,6 @@
-def funcao():
-    print(type(funcao))
+def contaElementos(qtde, palavra):
+    if len(palavra) == qtde:
+        return True
+    else:
+        return False
 
-teste = funcao()
-print(type(teste))
