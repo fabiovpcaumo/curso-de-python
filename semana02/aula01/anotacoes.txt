@@ -1,0 +1,75 @@
+ISO 25000
+
+Test Driven Development => TDD
+
+Ciclo de Feedback:
+	Escrever c�digo ----> Testar ----> Escrever C�digo
+	
+	
+	Escrever c�digo ----> Testar --- Funciona ? -- Sim --> Escrever c�digo -- N�o --> Arrumar o c�digo --> Testar
+
+assert
+
+assert 1 + 1 = 2 // passa
+assert 1 + 1 = 3 // AssertionError
+
+assert <exp_1> <cond> <exp_2>, "Error message"
+
+xUnit-Style - Glossário
+
+Test case class
+    - Classe base para todas as classes de teste
+
+Test fixtures
+    - Funções ou métodos que são executados antes e depois da execuão dos blocos de código do teste
+    - Coisas comuns em todos os testes
+    - Blocos de códigos que fazem coisas pré-determinadas
+Assertions
+    - Funções ou métodos que são usados para verificar o comportamento do componente que está sendo testado
+
+Test Runner
+    - Programa ou bloco de código que executa o conjunto de testes
+
+Como rodar o test runner
+python -m unittest -v
+    -v verbose (detalhamento no shell)
+
+Procurar: PEP 008, pytest
+
+from unittest import TestCase, main
+
+@classmethod
+setUpClass -> roda o setup antes da classe
+
+@classmethod
+tearDownClass -> roda depois da classe
+
+setUp > roda antes de cada teste
+tearDown > roda depois de cada teste
+
+Unidades:
+    São todos os itens que podem ser testados
+    Classes, métodos, funções, objetos
+
+Testes de unidade devem prezar por serem:
+    Isolados:
+        O teste de unidade não pode conter dependências externas (bancos de dados, apis e etc)
+    
+    Stateless:
+        Não se pode guardar estados, ou seja, a cada teste todos os recursos que foram utilizados
+        (instâncias, mocks e tudo mais) devem ser destruídos completamente e novos devem ser criados
+
+    Unitário:
+        É um pouco redundante dizer isso, mas um teste de unidade deve apenas testar uma unidade, ou
+        seja, se você começar a instanciar outras unidade já não é mais um teste unitário.
+
+SUT (System Under Test):
+    SUT - o sistema em si
+    CUT - classe em teste
+    MUT - método em teste
+    AUT - tudo em teste (all in test)
+    DOC - Componente que o SUT depende
+    FUT - Função em teste
+    M2UT - Módulo em teste
+
+Complexidade Ciclomática
