@@ -1,0 +1,8 @@
+TDD
+	3 partes
+		Vermelho
+			- Onde escrevemos um teste para falhar
+		Verde
+			- Onde escrevemos o código para passar no teste
+		Azul
+			- Onde refatoramos o código
