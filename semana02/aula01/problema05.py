@@ -2,6 +2,11 @@ from problema03 import Calc
 from unittest import TestCase, main
 
 class TestCalculadora(TestCase):
+    """
+    SUTs:
+    - Calculadora
+        - Funções de Soma, Subtração, Divisão, Multiplicação
+    """
     
     def setUp(self):
         self.c = Calc()
@@ -32,3 +37,4 @@ class TestCalculadora(TestCase):
         output_esperado = 1
         
         self.assertEquals(input, output_esperado)
+

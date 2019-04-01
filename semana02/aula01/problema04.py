@@ -27,3 +27,9 @@ class TestCalculadora(TestCase):
     def test_div_deve_retornar_1_com_1_e_1(self):
         print("Testando divisão")
         self.assertEqual(self.calculadora.div(1, 1), 1)
+
+"""
+SUTs:
+- Calculadora
+    - Funções de Soma, Subtração, Divisão, Multiplicação
+"""

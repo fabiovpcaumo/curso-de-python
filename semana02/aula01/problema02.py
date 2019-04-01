@@ -7,6 +7,7 @@ def soma(x, y):
     return x + y
 
 assert soma(1.29, 1) == 2.29
+
 # print(1.39 + 1)
 assert soma(1.39, 1) == 2.39
 

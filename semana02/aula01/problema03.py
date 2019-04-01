@@ -3,15 +3,16 @@ class Calc:
         return x + y
 
     def sub(self, x, y):
-        return x + y
+        return x - y
     
     def mult(self, x, y):
-        return x + y
+        return x * y
     
     def div(self, x, y):
-        return x + y
+        return x / y
 
 if __name__ == '__main__':
+    print("oi mundo")
     calculadora = Calc()
     
     #SUTs
@@ -25,9 +26,3 @@ if __name__ == '__main__':
 
     #Dada que exista uma função de soma e uma de subtração.
     #f(x, y, z) -> x + y - z
-
-def f(x, y, z):
-    return f(f(x, y), z)
-
-calc = Calc()
-print(f(calc.sub(calc.soma)))
