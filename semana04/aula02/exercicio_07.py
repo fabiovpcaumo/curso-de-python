@@ -34,8 +34,12 @@ class Tamagushi:
 
     def calcular_humor(self):
         coeficiente = 0
-        for i in range(0, 100, 10):
-            if self.fome >= i or self.fome < i + 10 
+        for i in range(0, 110, 10):
+            if self.fome == 0:
+                coeficiente = 0
+            elif self.fome <= i:
+                coeficiente = self.fome / i
+            
         humor = self.fome * coeficiente + self.saude * coeficiente
 
 
@@ -45,4 +49,9 @@ class Tamagushi:
 
     def retornar_status(self):
         return f'Tamagochi {self.nome} | Fome: {self.fome} | Saúde: {self.saude} | Idade: {self.idade}'
-    
+
+if __name__ == '__main__':
+    t1 = Tamagushi('bicho', 100, 100, 12)
+    t1.calcular_humor()
+    t2 = Tamagushi('bicho2', 0, 0, 12)
+    t2.calcular_humor()
