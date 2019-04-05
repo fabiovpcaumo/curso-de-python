@@ -1,5 +1,10 @@
-    MyPy
-    Typing
-    MonkeyTyping
+MyPy
+Typing
+MonkeyTyping
 
-    pip 3107, 484, 483
+pip 3107, 484, 483
+
+Facade
+Proxy class
+
+david mertz - functional programming with python [free]
